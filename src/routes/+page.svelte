@@ -25,7 +25,7 @@
 <main>
   <div class="main-content">
     <h1>weather.png</h1>
-    <p>A simple app that shows the weather from <a href="://openweathermap.org" target="_blank" referrerpolicy="no-referrer">OpenWeatherMap</a> and generates an birds eye view of the city from <a href="://https://openai.com/product/dall-e-2" target="_blank" referrerpolicy="no-referrer">DALL-E </a> with the corresponding weather.</p>
+    <p>A simple app that shows the weather from <a href="://openweathermap.org" target="_blank" referrerpolicy="no-referrer">OpenWeatherMap</a> and generates a image of a certain place in the city from <a href="://openai.com/product/dall-e-2" target="_blank" referrerpolicy="no-referrer">DALL-E </a> with the corresponding weather.</p>
     <Form />
     <footer>
       &copy; 2023 - A <a href="://torten.xyz">tortenworx</a> project

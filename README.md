@@ -1,18 +1,11 @@
-# create-svelte
+![promotional](https://cdn.torten.lol/server/Github%20Main%20Promotional.png)
+# weather.png
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## What is this?
+It's a simple web app that shows the current weather information and a AI Generated image of a famous landmark in the specified location.
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## What kind of stuff did you use to make dis?
+Svelte. DALL-E. OpenWeatherMap.
 
 ## Developing
 
