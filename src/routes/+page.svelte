@@ -18,6 +18,11 @@
   <meta property="og:description" content="A new way of weatherin'">
   <meta property="og:type" content=website>
   <meta property="og:image" content=https://cdn.torten.lol/server/OG%20Main%20Landscape.png>
+  <meta property="og:image:height" content="1080">
+  <meta property="og:image:width" content="1920">
+  <meta property="og:image" content="https://cdn.torten.lol/server/OG%20Small.png">
+  <meta property="og:image:width" content="626">
+  <meta property="og:image:height" content="626">
   <meta name="twtiter:card" content="summary">
   <meta name="twitter:creator" content="@tortenwashere">
 </svelte:head>
@@ -40,12 +45,12 @@
   main {
     min-height: 100vh;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: start;
     @include md {
       flex-direction: row;
-      max-height: 100vh;
+      min-height: 100vh;
     }
   }
 
@@ -55,6 +60,7 @@
     background-position: center;
     background-size: cover;
     @include md {
+      padding: 1em 3em;
       background: #222 !important;
     }
     color: #fff;
@@ -63,9 +69,9 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding: 1em 3em;
+    padding: 1em;
     h1 {
-      font-family: 'Foldit', cursive;
+      font-family: 'Righteous', cursive;
       font-weight: 200;
       font-size: 2.8rem;
       text-align: center;
